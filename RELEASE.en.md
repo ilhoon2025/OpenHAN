@@ -35,6 +35,16 @@
 
 ⌨️ **Shortcut Reference:** Press **F1** to find shortcuts, or **F11** to enter fullscreen.
 
+### 🖼️ Screenshots
+
+> Add the final image files to `docs/images/` before publishing the release. The filenames below are the expected placeholders for the published screenshots.
+
+![OpenHAN AI background removal UI](docs/images/openhan-background-removal.png)
+
+![OpenHAN save format dropdown](docs/images/openhan-save-dialog.png)
+
+![OpenHAN theme settings](docs/images/openhan-theme-settings.png)
+
 ### 📖 How to Use
 
 🚀 **Launch:** Extract the ZIP and run `OpenHAN.exe`.  
