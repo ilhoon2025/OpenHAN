@@ -83,6 +83,8 @@ Electron · React · Tiptap / ProseMirror · U²-Net · ONNX Runtime · fflate �
 
 OpenHAN 패키지는 **MIT 라이선스**를 선언합니다. 번들된 타사 구성요소는 각자 라이선스를 유지합니다 (예: U²-Net 및 cfb는 Apache-2.0, ONNX Runtime·Tiptap/ProseMirror·fflate는 MIT).
 
----
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/edc61526-ba9d-4725-8f06-938f891363a9" alt="OpenHAN 라이선스 및 크레딧" width="420">
+</p>
 
 📝 *당신의 말, 당신의 작업 공간. OpenHAN.*
