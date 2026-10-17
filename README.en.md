@@ -118,10 +118,10 @@ Navigate to the extracted `win-unpacked` directory.
 
 ### STEP 03. Launch OpenHAN
 
-Double-click `OpenHAN.exe` to start the application.
+Double-click `OpenHAN.exe` to launch the application.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/16a9f387-3eaf-4fc6-9787-7af3d7c64ffb" alt="Launching OpenHAN" width="680">
+  <img src="https://github.com/user-attachments/assets/5acef755-ad7d-4b98-a0bf-947ff86fb3e2" alt="Launching OpenHAN" width="680">
 </p>
 
 > **Important:** Keep the executable, DLL files, and `resources` folder together. The ZIP distribution does not require a separate installer. Application settings are stored in your Windows user profile.
