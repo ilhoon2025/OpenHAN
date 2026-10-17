@@ -37,13 +37,13 @@
 
 ### 🖼️ Screenshots
 
-> Add the final image files to `docs/images/` before publishing the release. The filenames below are the expected placeholders for the published screenshots.
+Click each image to open the full-size screenshot.
 
-![OpenHAN AI background removal UI](docs/images/openhan-background-removal.png)
+[![OpenHAN AI background removal UI](https://i.ibb.co/XxyV0Ckx/image.png)](https://ibb.co/RTh7rD4T)
 
-![OpenHAN save format dropdown](docs/images/openhan-save-dialog.png)
+[![OpenHAN save format dropdown](https://i.ibb.co/20nd8w9Y/image.png)](https://ibb.co/rK7Hbgjf)
 
-![OpenHAN theme settings](docs/images/openhan-theme-settings.png)
+[![OpenHAN theme settings](https://i.ibb.co/vxvvXjdL/image.png)](https://ibb.co/pvrrhLK4)
 
 ### 📖 How to Use
 

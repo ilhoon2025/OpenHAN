@@ -26,6 +26,16 @@ ZIP 아카이브(.zip)를 릴리스 페이지에서 다운로드하세요. 압�
 - 템플릿으로 빠르게 시작
 - 단축키: F1(단축키 참조), F11(전체화면)
 
+### 🖼️ 스크린샷
+
+각 이미지를 클릭하면 전체 크기 스크린샷을 볼 수 있습니다.
+
+[![OpenHAN AI 배경 제거 UI](https://i.ibb.co/XxyV0Ckx/image.png)](https://ibb.co/RTh7rD4T)
+
+[![OpenHAN 저장 형식 드롭다운](https://i.ibb.co/20nd8w9Y/image.png)](https://ibb.co/rK7Hbgjf)
+
+[![OpenHAN 테마 설정](https://i.ibb.co/vxvvXjdL/image.png)](https://ibb.co/pvrrhLK4)
+
 ### 📖 사용 방법
 
 - 실행: ZIP 압축을 풀고 `OpenHAN.exe` 실행
