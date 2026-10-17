@@ -111,7 +111,7 @@ GitHub 저장소의 **Releases** 페이지에서 Windows ZIP 파일을 다운로
 `OpenHAN.exe` 파일을 더블클릭하여 실행합니다.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/16a9f387-3eaf-4fc6-9787-7af3d7c64ffb" alt="OpenHAN 실행 파일" width="680">
+  <img src="https://github.com/user-attachments/assets/5acef755-ad7d-4b98-a0bf-947ff86fb3e2" alt="OpenHAN 실행 파일" width="680">
 </p>
 
 > **주의:** 실행 파일, DLL 및 `resources` 폴더를 함께 유지해야 합니다. ZIP 배포판은 별도의 설치 프로그램이 필요하지 않으며, 설정은 Windows 사용자 프로필에 저장됩니다.
@@ -263,7 +263,7 @@ OpenHAN 패키지는 **MIT 라이선스**를 선언합니다.
 
 ### 🇰🇷 PROUDLY MADE IN KOREA
 
-**100% Korean Developed**
+**100% Korean-Developed**
 
 ### 📝 OpenHAN
 
