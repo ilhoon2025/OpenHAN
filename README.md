@@ -13,6 +13,7 @@ OpenHAN은 문서 편집, 표, 이미지, 그리고 페이지 레이아웃을 �
 ## ✨ 주요 기능
 
 - 📄 **HWP & HWPX 읽기/쓰기** — HWP 5.0과 HWPX 문서를 열고 저장할 수 있으며, OpenHAN 고유 포맷 `.ohan`으로 에디터 형식을 보존할 수 있습니다.
+- 
 <img width="785" height="94" alt="image" src="https://github.com/user-attachments/assets/0ce63e8e-4c1e-491f-93f0-04023a6eb852" />
 - 
 - 🎨 **3가지 인터페이스 테마** — **2010**, **2018**, **2024** 테마 중 선택하십시오. 문서 페이지는 흰색으로 유지하면서 다크 테마를 사용할 수 있습니다.
@@ -20,6 +21,7 @@ OpenHAN은 문서 편집, 표, 이미지, 그리고 페이지 레이아웃을 �
 - ✍️ **풍부한 텍스트 서식** — 글꼴, 크기, 색상, 자간, 줄간격, 단락 정렬 및 들여쓰기 등을 조절하고, 제목, 목록, 서식 복사를 사용할 수 있습니다.
 - 📊 **표 편집** — 표 삽입, 행·열 추가/삭제, 셀 병합 및 분할을 지원합니다.
 - 🖼️ **이미지 및 AI 배경 제거** — ONNX Runtime으로 로컬에서 실행되는 U²-Net 모델로 배경을 제거합니다. 매직 완드, 지우개, 복원 브러시로 결과를 다듬고 문서에 삽입하거나 투명 PNG로 저장할 수 있습니다.
+- 
 <img width="1378" height="894" alt="image" src="https://github.com/user-attachments/assets/8caf8011-5e00-4416-91d9-fd3d67e36aca" />
 - 
 - 📐 **페이지 레이아웃 제어** — 용지 크기, 방향, 여백, 쪽 나누기 및 쪽 번호를 설정하고 자와 줌으로 보기를 조절하세요.
@@ -32,12 +34,15 @@ OpenHAN은 문서 편집, 표, 이미지, 그리고 페이지 레이아웃을 �
 릴리스 페이지의 Windows ZIP 파일을 다운로드하세요.
 
 1. ZIP 압축을 풀고 전체 폴더를 유지합니다.
+
 <img width="1149" height="648" alt="image" src="https://github.com/user-attachments/assets/8345dcef-ae43-4cf2-8c37-ebca27c15f8f" />
 
 2. `win-unpacked` 폴더를 엽니다.
+
 <img width="1920" height="511" alt="image" src="https://github.com/user-attachments/assets/c9cf906f-8436-48a4-91f6-8d5bee9faeaa" />
 
 3. `OpenHAN.exe`를 실행합니다.
+
 <img width="1917" height="512" alt="image" src="https://github.com/user-attachments/assets/16a9f387-3eaf-4fc6-9787-7af3d7c64ffb" />
 
 실행 파일, DLL, 그리고 `resources` 폴더를 함께 두어야 합니다. 설치 프로그램은 필요하지 않으며 설정은 Windows 사용자 프로필에 저장됩니다.
@@ -48,15 +53,18 @@ OpenHAN은 문서 편집, 표, 이미지, 그리고 페이지 레이아웃을 �
 2. 📂 파일 열기: `Ctrl+O`로 HWP/HWPX/OHAN/TXT/HTML 파일 열기
 3. ✍️ 편집: 서식 도구로 텍스트를 스타일링하고 표나 이미지를 추가
 4. 🪄 이미지 누끼 따기: 이미지를 선택하고 `Ctrl+Shift+K` 실행 후 결과를 다듬고 적용
+
 <img width="1378" height="894" alt="image" src="https://github.com/user-attachments/assets/ba0257a6-8a48-4f24-98df-71ac05e10186" />
 
-5. 💾 저장: `Ctrl+S`로 HWP, HWPX, OHAN 중 선택하여 저장
+6. 💾 저장: `Ctrl+S`로 HWP, HWPX, OHAN 중 선택하여 저장
+
 <img width="821" height="550" alt="image" src="https://github.com/user-attachments/assets/2c353bab-ec23-4d5a-88be-7c5d10b587bc" />
 
-6. 📤 공유: 파일 메뉴에서 PDF로 내보내거나 `Ctrl+P`로 인쇄
+8. 📤 공유: 파일 메뉴에서 PDF로 내보내거나 `Ctrl+P`로 인쇄
+
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/807cecc6-a92c-4e63-a45b-ea1d36a02cdb" />
 
-7. 🎨 설정 변경: 도구 → 환경 설정에서 테마와 기타 옵션 조정
+10. 🎨 설정 변경: 도구 → 환경 설정에서 테마와 기타 옵션 조정
 
 ## 📁 지원 포맷
 
@@ -70,6 +78,7 @@ OpenHAN은 문서 편집, 표, 이미지, 그리고 페이지 레이아웃을 �
 | PDF (`.pdf`) | — | ✅ 내보내기 |
 
 HWP 3.0 이하,암호로 보호된 HWP, 배포 보호된 HWP는 지원하지 않습니다. 일부 OpenHAN 전용 서식(예: 글머리표, 블록 인용)은 HWP/HWPX로 저장할 때 일반 단락으로 변환될 수 있습니다. OpenHAN 고유 서식을 보존하려면 **OHAN**을 사용하세요.
+
 <img width="785" height="94" alt="image" src="https://github.com/user-attachments/assets/98ac6bd4-d6b0-4bd9-8d46-65df27258262" />
 
 
@@ -99,6 +108,8 @@ Electron · React · Tiptap / ProseMirror · U²-Net · ONNX Runtime · fflate �
 ## 📜 라이선스 & 크레딧
 
 OpenHAN 패키지는 **MIT 라이선스**를 선언합니다. 번들된 타사 구성요소는 각자 라이선스를 유지합니다 (예: U²-Net 및 cfb는 Apache-2.0, ONNX Runtime·Tiptap/ProseMirror·fflate는 MIT).
+
+<img width="567" height="420" alt="image" src="https://github.com/user-attachments/assets/edc61526-ba9d-4725-8f06-938f891363a9" />
 
 ---
 
