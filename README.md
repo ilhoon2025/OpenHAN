@@ -1,92 +1,88 @@
-# 📝 OpenHAN
+# 📝 OpenHAN (한국어)
 
-### Familiar writing. More possibilities.
+### 친숙한 글쓰기, 더 많은 가능성.
 
-**A Korean word processor for Windows with HWP/HWPX support and built-in AI background removal.**
+**HWP/HWPX 지원과 로컬 AI 누끼(배경 제거)를 갖춘 Windows용 한글 워드프로세서입니다.**
 
-🪟 Windows x64 · 💎 v2.0.0 · 🎨 Three interface themes · 📜 MIT
+🪟 Windows x64 · 💎 v2.0.0 · 🎨 3가지 인터페이스 테마 · 📜 MIT
 
-[한국어 소개](README.ko.md)
+[English · README](README.en.md)
 
-OpenHAN brings document editing, tables, images, and page layout into one desktop workspace. Open an existing document, start with a template, and choose the interface that feels right for you.
+OpenHAN은 문서 편집, 표, 이미지, 그리고 페이지 레이아웃을 하나의 데스크톱 작업공간으로 제공합니다. 기존 문서를 열거나 템플릿으로 시작하고, 편한 인터페이스를 선택하세요.
 
-## ✨ Key Features
+## ✨ 주요 기능
 
-- 📄 **HWP & HWPX Reading and Writing** — Open and save HWP 5.0 and HWPX documents, or use OpenHAN’s native `.ohan` format to retain its editor formatting.
-- 🎨 **Three Interface Themes** — Choose the **2010**, **2018**, or **2024** theme. Switch to a dark interface while keeping the document page white.
-- 🗂️ **Tabbed Documents** — Work with multiple documents, revisit recent files, and open additional windows.
-- ✍️ **Detailed Text Formatting** — Adjust fonts, sizes, colors, character spacing, line spacing, paragraph alignment, and indentation. Use headings, lists, and format copying.
-- 📊 **Table Editing** — Insert tables, add or remove rows and columns, and merge or split cells.
-- 🖼️ **Images & AI Background Removal** — Remove backgrounds with the bundled U²-Net model running locally through ONNX Runtime. Refine the result with a magic wand, eraser, and restore brush, then insert it into your document or save a transparent PNG.
-- 📐 **Page Layout Controls** — Set page dimensions, orientation, margins, page breaks, and page numbers. Use rulers and zoom controls to refine the view.
-- 📤 **Export & Print** — Export documents as PDF, HTML, or plain text, and print through the desktop print dialog.
-- 📋 **Built-in Templates** — Get started with templates such as a household budget, weekly planner, meeting minutes, and an award certificate.
-- ⌨️ **Keyboard-Friendly Editing** — Find and replace text, copy formatting, and browse the searchable shortcut reference with **F1**.
+- 📄 **HWP & HWPX 읽기/쓰기** — HWP 5.0과 HWPX 문서를 열고 저장할 수 있으며, OpenHAN 고유 포맷 `.ohan`으로 에디터 형식을 보존할 수 있습니다.
+- 🎨 **3가지 인터페이스 테마** — **2010**, **2018**, **2024** 테마 중 선택하십시오. 문서 페이지는 흰색으로 유지하면서 다크 테마를 사용할 수 있습니다.
+- 🗂️ **탭형 문서 작업** — 여러 문서를 탭으로 열고 최근 파일을 빠르게 불러오며, 추가 창도 열 수 있습니다.
+- ✍️ **풍부한 텍스트 서식** — 글꼴, 크기, 색상, 자간, 줄간격, 단락 정렬 및 들여쓰기 등을 조절하고, 제목, 목록, 서식 복사를 사용할 수 있습니다.
+- 📊 **표 편집** — 표 삽입, 행·열 추가/삭제, 셀 병합 및 분할을 지원합니다.
+- 🖼️ **이미지 및 AI 배경 제거** — ONNX Runtime으로 로컬에서 실행되는 U²-Net 모델로 배경을 제거합니다. 매직 완드, 지우개, 복원 브러시로 결과를 다듬고 문서에 삽입하거나 투명 PNG로 저장할 수 있습니다.
+- 📐 **페이지 레이아웃 제어** — 용지 크기, 방향, 여백, 쪽 나누기 및 쪽 번호를 설정하고 자와 줌으로 보기를 조절하세요.
+- 📤 **내보내기 및 인쇄** — PDF, HTML, TXT로 내보내기하고, 데스크톱 인쇄 대화상자를 통해 인쇄할 수 있습니다.
+- 📋 **내장 템플릿** — 가계부, 주간 플래너, 회의록, 상장 템플릿 등으로 빠르게 시작할 수 있습니다.
+- ⌨️ **단축키 중심 편집** — 찾기/바꾸기, 서식 복사, F1로 단축키 참조를 열 수 있습니다.
 
-## 📥 Download & Run
+## 📥 다운로드 및 실행
 
-Download the Windows ZIP attached to this repository’s **Releases** page.
+릴리스 페이지의 Windows ZIP 파일을 다운로드하세요.
 
-1. Extract the entire ZIP archive.
-2. Open the extracted `win-unpacked` folder.
-3. Launch **`OpenHAN.exe`**.
+1. ZIP 압축을 풀고 전체 폴더를 유지합니다.
+2. `win-unpacked` 폴더를 엽니다.
+3. `OpenHAN.exe`를 실행합니다.
 
-Keep the executable, DLLs, and `resources` folder together. No installer is required for this ZIP distribution; application settings are stored in your Windows user profile.
+실행 파일, DLL, 그리고 `resources` 폴더를 함께 두어야 합니다. 설치 프로그램은 필요하지 않으며 설정은 Windows 사용자 프로필에 저장됩니다.
 
-## 📖 Quick Start
+## 📖 빠른 시작
 
-1. 🆕 **Start a document:** Choose a template or press **Alt+N** for a blank document.
-2. 📂 **Open a file:** Press **Ctrl+O** to open HWP, HWPX, OHAN, TXT, or HTML documents.
-3. ✍️ **Edit and format:** Use the formatting tools to style text and add tables or images.
-4. 🪄 **Remove an image background:** Select an image and press **Ctrl+Shift+K**. Run AI background removal, refine the edges, and apply the result.
-5. 💾 **Save:** Press **Ctrl+S**, then choose HWP, HWPX, or OHAN as appropriate.
-6. 📤 **Share:** Export to PDF from the file menu, or press **Ctrl+P** to print.
-7. 🎨 **Customize:** Open **도구 → 환경 설정** to change the interface theme and other preferences.
+1. 🆕 새 문서: 템플릿을 선택하거나 `Alt+N`으로 빈 문서 생성
+2. 📂 파일 열기: `Ctrl+O`로 HWP/HWPX/OHAN/TXT/HTML 파일 열기
+3. ✍️ 편집: 서식 도구로 텍스트를 스타일링하고 표나 이미지를 추가
+4. 🪄 이미지 누끼 따기: 이미지를 선택하고 `Ctrl+Shift+K` 실행 후 결과를 다듬고 적용
+5. 💾 저장: `Ctrl+S`로 HWP, HWPX, OHAN 중 선택하여 저장
+6. 📤 공유: 파일 메뉴에서 PDF로 내보내거나 `Ctrl+P`로 인쇄
+7. 🎨 설정 변경: 도구 → 환경 설정에서 테마와 기타 옵션 조정
 
-## 📁 Document Formats
+## 📁 지원 포맷
 
-| Format | Open | Save / Export |
+| 형식 | 열기 | 저장 / 내보내기 |
 | --- | --- | --- |
 | HWP 5.0 (`.hwp`) | ✅ | ✅ |
 | HWPX (`.hwpx`) | ✅ | ✅ |
 | OpenHAN (`.ohan`) | ✅ | ✅ |
-| Plain text (`.txt`) | ✅ | ✅ Export |
-| HTML (`.html`, `.htm`) | ✅ | ✅ Export as `.html` |
-| PDF (`.pdf`) | — | ✅ Export |
+| 일반 텍스트 (`.txt`) | ✅ | ✅ 내보내기 |
+| HTML (`.html`, `.htm`) | ✅ | ✅ `.html`로 내보내기 |
+| PDF (`.pdf`) | — | ✅ 내보내기 |
 
-HWP 3.0 and earlier, password-protected HWP files, and distribution-protected HWP files are not supported. Some OpenHAN formatting, including bullets and block quotes, is converted to ordinary paragraphs when saved as HWP/HWPX. Use **OHAN** when preserving OpenHAN-specific formatting matters. Layout fidelity can vary with document features and installed fonts.
+HWP 3.0 이하,암호로 보호된 HWP, 배포 보호된 HWP는 지원하지 않습니다. 일부 OpenHAN 전용 서식(예: 글머리표, 블록 인용)은 HWP/HWPX로 저장할 때 일반 단락으로 변환될 수 있습니다. OpenHAN 고유 서식을 보존하려면 **OHAN**을 사용하세요.
 
-## ⌨️ Handy Shortcuts
+## ⌨️ 유용한 단축키
 
-| Action | Shortcut |
+| 동작 | 단축키 |
 | --- | --- |
-| New document | `Alt+N` |
-| Open | `Ctrl+O` |
-| Save | `Ctrl+S` |
-| Print | `Ctrl+P` |
-| Find / Replace | `Ctrl+F` / `Ctrl+H` |
-| Character / Paragraph formatting | `Alt+L` / `Alt+T` |
-| Page setup | `F7` |
-| Image background removal | `Ctrl+Shift+K` |
-| Fullscreen | `F11` |
-| Shortcut reference | `F1` |
+| 새 문서 | `Alt+N` |
+| 열기 | `Ctrl+O` |
+| 저장 | `Ctrl+S` |
+| 인쇄 | `Ctrl+P` |
+| 찾기/바꾸기 | `Ctrl+F` / `Ctrl+H` |
+| 문자/단락 서식 | `Alt+L` / `Alt+T` |
+| 페이지 설정 | `F7` |
+| 이미지 배경 제거 | `Ctrl+Shift+K` |
+| 전체화면 | `F11` |
+| 단축키 참조 | `F1` |
 
-## 🛠️ Built With
+## 🛠️ 사용 기술
 
-⚙️ **Electron & React** · ✍️ **Tiptap / ProseMirror** · 🧠 **U²-Net & ONNX Runtime** · 📦 **fflate & cfb**
+Electron · React · Tiptap / ProseMirror · U²-Net · ONNX Runtime · fflate · cfb
 
-## ✉️ Support
+## ✉️ 지원
 
-🐞 Report bugs through this repository’s **Issues** tab. Include your OpenHAN version, Windows version, steps to reproduce, and the expected result. For document compatibility issues, a small sample file without personal information is helpful.
+버그는 저장소의 Issues 탭에 보고해 주세요. OpenHAN 버전, Windows 버전, 재현 단계, 기대 결과를 포함해 주시면 빠르게 확인할 수 있습니다. 문서 호환성 문제는 개인 정보를 제거한 예제 파일을 첨부해 주세요.
 
-💡 Feature requests and suggestions are welcome in Issues.
+## 📜 라이선스 & 크레딧
 
-## 📜 License & Credits
-
-OpenHAN’s package declares the **MIT License**. Bundled third-party components retain their respective licenses, including U²-Net and cfb (Apache-2.0), and ONNX Runtime, Tiptap / ProseMirror, and fflate (MIT).
-
-OpenHAN is an independent project and is not affiliated with Hancom.
+OpenHAN 패키지는 **MIT 라이선스**를 선언합니다. 번들된 타사 구성요소는 각자 라이선스를 유지합니다 (예: U²-Net 및 cfb는 Apache-2.0, ONNX Runtime·Tiptap/ProseMirror·fflate는 MIT).
 
 ---
 
-📝 *Your words. Your workspace. OpenHAN.*
+📝 *당신의 말, 당신의 작업 공간. OpenHAN.*
