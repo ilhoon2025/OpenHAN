@@ -1,66 +1,68 @@
 # 📝 OpenHAN **v2.0.0** · *Official Release*
 
-✨ **Write, format, and create — with HWP/HWPX support and built-in AI background removal.**
+✨ **From HWP/HWPX editing to an AI assistant, Korean spell checking, official-style rewriting, and AI background removal — on PC and phone.**
 
-### 📥 Download Options
+### 📥 Downloads
 
-📂 **ZIP Archive (.zip)** — Download the Windows x64 ZIP from the release assets, extract the entire archive, and launch **`OpenHAN.exe`** inside `win-unpacked`. No installer required. Keep all extracted files together.
+| Platform | File | Notes |
+| :--- | :--- | :--- |
+| 🪟 **Windows installer** | [`OpenHAN-2.0.0-Setup.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.0.0/OpenHAN-2.0.0-Setup.exe) | Creates Start menu and desktop shortcuts **(recommended)** |
+| 🪟 **Windows portable** | [`OpenHAN-2.0.0-Portable.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.0.0/OpenHAN-2.0.0-Portable.exe) | Single file, no installation |
+| 🤖 **Android** | [`OpenHAN-2.0.0-Android.apk`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.0.0/OpenHAN-2.0.0-Android.apk) | Copy to your phone and install (allow unknown sources) |
+| 🍎 **macOS** | Coming soon | Will be added after building on macOS |
+
+> ⚠️ The app is not code-signed, so **Windows SmartScreen** may warn on first launch — click **More info → Run anyway**.
+>
+> 📦 `OpenHAN.v2.0.0.zip` / `.7z` are the **earlier build** (no AI or Android features).
+
+### 🆕 New in this build
+
+✨ **AI assistant** — say "write meeting minutes", "make a monthly budget table", or "switch to landscape" and it acts on the document. (`Ctrl+K, A`)
+
+🔤 **Korean spelling & spacing infographic** — accuracy score, error-type bars, and fix cards; fix everything in one click. (`F8` check · `Ctrl+F8` auto fix)
+
+🏛️ **Official / academic style rewriter** — turn casual text into Korean official-document style, academic style, report style, and more, compared side by side.
+
+📱 **HWP summary & medium viewer** — skim a long HWP as phone-style cards: summary, key points, images, and tables, without opening it. (`Ctrl+K, P`)
+
+🔑 **Free AI with automatic failover** — add free keys for Gemini · Groq · Mistral · Cerebras · OpenRouter and OpenHAN switches providers when a limit is hit. Works with no key via Pollinations; local AI (Ollama) is unlimited and offline.
+
+🤖 **Android app** — phone-first layout, save via the share sheet, open HWP files from other apps.
+
+🍎 **macOS support** — traffic-light buttons, ⌘ shortcuts, open from Finder (macOS build coming).
+
+💿 **Installer & default app** — Setup installer, and double-click hwp · hwpx · ohan · txt · html to open in OpenHAN.
+
+🎨 **New per-theme logos** — one for each of 2010 · 2018 · 2024, plus the 2018 diagonal corner tab.
 
 ### 🛠️ Project Overview
 
 🏷️ **Name:** OpenHAN  
 💎 **Version:** 2.0.0  
-🪟 **Platform:** Windows x64  
-⚙️ **Core:** Electron · React · Tiptap / ProseMirror  
-🧠 **Image AI:** Bundled U²-Net model · ONNX Runtime  
-📜 **Project License:** MIT
+🖥️ **Platforms:** Windows x64 · Android · macOS (coming)  
+⚙️ **Core:** Electron · Capacitor · React · Tiptap / ProseMirror  
+🧠 **AI:** OpenAI-compatible providers with failover · bundled U²-Net (ONNX Runtime, local)  
+📜 **License:** MIT
 
-### ✨ Key Features
+### ✨ Core features
 
-📄 **HWP & HWPX Support:** Read and write HWP 5.0 and HWPX documents, with OHAN available for OpenHAN-specific formatting.
+📄 **HWP & HWPX** read/write (HWP 5.0) — files saved by OpenHAN open in Hangul 2024 with fonts, colors, cell shading, merged tables, images, and page size intact.  
+🎨 **Three themes** — 2010, 2018, 2024, plus a dark interface.  
+🗂️ **Tabs and 12 templates**  
+✍️ **Editing** — character/paragraph shape, tables, images, page numbers, page setup  
+🪄 **Local AI background removal** with manual refinement and transparent PNG export  
+⌨️ **Hangul-style shortcuts** — press **F1** to search them
 
-🎨 **Three Interface Themes:** Choose **2010**, **2018**, or **2024**, with an optional dark interface.
+### 📌 Notes
 
-🗂️ **Tabbed Workspace:** Edit multiple documents and quickly return to recent files.
+HWP 3.0 and earlier, password-protected, and distribution-protected HWP are not supported. Headers/footers, footnotes, shapes, and table captions are not handled yet; use **OHAN** to keep OpenHAN-specific formatting.
 
-✍️ **Rich Document Editing:** Customize text and paragraph formatting, create tables, merge cells, and insert images.
-
-🪄 **Local AI Background Removal:** Remove image backgrounds with a bundled AI model, refine with manual tools, and save transparent PNGs.
-
-📐 **Page Layout:** Configure page size, orientation, margins, page breaks, and page numbers.
-
-📤 **Export & Print:** Export to **PDF, HTML, or TXT**, or print your document.
-
-📋 **Ready-to-Use Templates:** Start with a household budget, weekly planner, meeting minutes, and more.
-
-⌨️ **Shortcut Reference:** Press **F1** to find shortcuts, or **F11** to enter fullscreen.
-
-### 🖼️ Screenshots
-
-Click each image to open the full-size screenshot.
-
-[![OpenHAN AI background removal UI](https://i.ibb.co/XxyV0Ckx/image.png)](https://ibb.co/RTh7rD4T)
-
-[![OpenHAN save format dropdown](https://i.ibb.co/20nd8w9Y/image.png)](https://ibb.co/rK7Hbgjf)
-
-[![OpenHAN theme settings](https://i.ibb.co/vxvvXjdL/image.png)](https://ibb.co/pvrrhLK4)
-
-### 📖 How to Use
-
-🚀 **Launch:** Extract the ZIP and run `OpenHAN.exe`.  
-📂 **Open:** Press **Ctrl+O** to choose a document.  
-✍️ **Create:** Press **Alt+N** for a new document, or choose a template.  
-🪄 **Remove Backgrounds:** Select an image and press **Ctrl+Shift+K**.  
-💾 **Save:** Press **Ctrl+S** and choose HWP, HWPX, or OHAN.  
-📤 **Share:** Export to PDF or press **Ctrl+P** to print.
-
-### 📌 Format Notes
-
-HWP 3.0 and earlier, password-protected HWP files, and distribution-protected HWP files are not supported. Some formatting is simplified when saving to HWP/HWPX; use **OHAN** to retain OpenHAN-specific formatting. Layout may vary with document features and installed fonts.
+Text is sent to an AI provider only when you use an AI feature. API keys are stored in your OS account's encrypted storage. The keyless free provider is rate-limited, so adding a free Gemini or Groq key is recommended.
 
 ### ✉️ Support
 
-🐞 Please report bugs through the **GitHub Issues** tab, including your app version and steps to reproduce.  
-💡 Suggestions and feature requests are welcome.
+Report bugs in **GitHub Issues** with the app version, platform, and steps to reproduce.
 
-📝 *Your words. Your workspace. OpenHAN.*
+---
+
+📝 *Your Words. Your Workspace. OpenHAN.*

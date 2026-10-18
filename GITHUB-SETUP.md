@@ -6,15 +6,15 @@
 
 ## 📝 About — 영문
 
-📝 A Korean word processor for Windows with HWP/HWPX editing, three interface themes, PDF export, and local AI background removal.
+📝 A Korean word processor for Windows, macOS and Android with HWP/HWPX editing, three interface themes, an AI assistant & spell checker, and local AI background removal.
 
 ## 📝 About — 한국어
 
-📝 HWP/HWPX 문서 편집, 3가지 화면 테마, PDF 내보내기, 로컬 AI 누끼 따기를 제공하는 Windows 한글 워드프로세서.
+📝 HWP/HWPX 편집, 3가지 화면 테마, AI 비서·맞춤법·공문서체 변환, 로컬 AI 누끼 따기를 제공하는 Windows·macOS·Android 한글 워드프로세서.
 
 ## 🔖 Topics
 
-`openhan` `word-processor` `document-editor` `korean` `hwp` `hwpx` `windows` `electron` `react` `tiptap` `prosemirror` `onnxruntime` `background-removal` `pdf-export`
+`openhan` `word-processor` `document-editor` `korean` `hwp` `hwpx` `windows` `electron` `react` `tiptap` `prosemirror` `onnxruntime` `background-removal` `pdf-export` `android` `macos` `capacitor` `ai-assistant` `spell-checker`
 
 ## 🚀 릴리스 설정
 
@@ -22,16 +22,16 @@
 - **영문 제목:** `📝 OpenHAN v2.0.0 — Official Release`
 - **한국어 제목:** `📝 OpenHAN v2.0.0 — 정식 릴리스`
 - **본문:** `RELEASE.en.md` 또는 `RELEASE.ko.md`의 내용을 복사합니다. 두 언어를 함께 게시하려면 본문을 차례로 붙여 넣어도 됩니다.
-- **현재 확인된 ZIP:** `C:/Users/ilhoo/OpenHAN/release/win-unpacked.zip`
-- **권장 첨부 파일명:** `OpenHAN-v2.0.0-windows-x64.zip` — 업로드용 복사본을 만들 때 사용할 이름입니다. 기존 파일은 변경하지 않았습니다.
+- **첨부 파일:** `OpenHAN-2.0.0-Setup.exe`(설치), `OpenHAN-2.0.0-Portable.exe`(포터블), `OpenHAN-2.0.0-Android.apk`(안드로이드). 기존 `OpenHAN.v2.0.0.zip`/`.7z`는 이전 빌드로 표시해 두었습니다.
+- **macOS:** electron-builder는 macOS에서만 .dmg를 만들 수 있습니다. Mac에서 `npm run dist:mac`으로 빌드한 뒤 첨부하세요.
 
 ## 📣 짧은 공개 소개 — 영문
 
-📝 Meet OpenHAN v2.0.0 — a Korean word processor for Windows. Edit HWP/HWPX documents, switch between three interface themes, export to PDF, and remove image backgrounds with local AI. 📂 Extract the ZIP and start writing.
+📝 Meet OpenHAN v2.0.0 — a Korean word processor for Windows and Android (macOS coming). Edit HWP/HWPX, switch between three themes, let the AI assistant write and fix Korean spelling, rewrite text in official style, and remove image backgrounds with local AI.
 
 ## 📣 짧은 공개 소개 — 한국어
 
-📝 OpenHAN v2.0.0을 소개합니다! HWP/HWPX 편집, 2010·2018·2024 테마, PDF 내보내기, 로컬 AI 누끼 따기를 하나의 Windows 앱에 담았습니다. 📂 ZIP 압축을 풀고 바로 글쓰기를 시작하세요.
+📝 OpenHAN v2.0.0을 소개합니다! HWP/HWPX 편집, 2010·2018·2024 테마, AI 비서·맞춤법 자동 수정·공문서체 변환, HWP 요약 카드, 로컬 AI 누끼 따기를 Windows와 안드로이드에 담았습니다.
 
 ## 🐞 오류 제보 양식
 
@@ -62,13 +62,8 @@ Windows 버전:
 사용 예시:
 ```
 
-## 📌 게시 전 확인할 내용
+## 📌 참고
 
-- 한국어를 기본으로 쓰려면 `README.ko.md` 내용을 저장소의 `README.md`로 사용하고 언어 전환 링크를 조정하세요.
-- 릴리스에 실제 ZIP을 첨부하세요. 확인한 배포 폴더에는 사용자용 설치 프로그램 `.exe`가 없어 다운로드 안내는 ZIP만 작성했습니다.
-- 패키지는 MIT를 선언하지만 앱 자체의 LICENSE 전문은 ASAR에서 확인되지 않았습니다. 저장소에 실제 저작권자와 연도가 기재된 LICENSE 파일을 갖춰 주세요. 이 문서 묶음에는 임의의 저작권자로 LICENSE를 생성하지 않았습니다.
-- 소스 공개 상태와 빌드 명령은 제공된 배포본만으로 확인되지 않아 개발용 설치·빌드 안내를 작성하지 않았습니다.
-- 이 문구는 v2.0.0에 포함된 기능 소개입니다. 이전 버전과의 비교 자료가 없어 각 기능을 ‘이번 버전에 새로 추가됨’으로 표현하지 않았습니다.
-- 실제 앱 화면을 캡처해 README 상단에 넣으면 테마와 편집 화면을 소개하기 좋습니다. 이번 묶음에는 가상 스크린샷을 넣지 않았습니다.
-
-실제 GitHub 게시·업로드는 수행하지 않았습니다.
+- 저장소 메인 `README.md`는 한국어, `README.en.md`는 영어입니다. `README.ko.md`는 메인과 같은 내용입니다.
+- 문서용 화면 캡처는 `docs/images/`에 있습니다.
+- 실제 저작권자와 연도가 기재된 LICENSE를 유지해 주세요.
