@@ -39,7 +39,7 @@
 | | 내용 |
 | :--- | :--- |
 | ✨ **OpenHAN AI** | AI 비서, 맞춤법·띄어쓰기 검사와 자동 수정, 공문서체·논문체 변환, HWP 요약 카드 뷰어 |
-| 🔑 **무료 AI 자동 전환** | Gemini · Groq · Mistral · Cerebras · OpenRouter · Pollinations(키 없이도 사용, 무료 키를 넣으면 한도 완화) · 로컬 Ollama — 한도에 걸리면 다음 AI로 자동으로 넘어갑니다 |
+| 🔑 **무료 AI 자동 전환** | Gemini · Groq · Mistral · Cerebras · OpenRouter · Pollinations(OpenHAN 키 내장 · 설정 없이 바로 사용) · 로컬 Ollama — 한도에 걸리면 다음 AI로 자동으로 넘어갑니다 |
 | 🤖 **안드로이드 앱** | 휴대폰 전용 화면(앱 바 · 아래 서식 줄 · 기능 시트), 다른 앱에서 HWP를 OpenHAN으로 열기 |
 | 🍎 **macOS 지원** | 신호등 창 단추, ⌘ 단축키, Finder에서 문서 열기 (Apple 실리콘·Intel 지원) |
 | 💿 **설치 파일 제공** | Windows 설치 파일(Setup)과 설치 없이 실행하는 포터블 exe |

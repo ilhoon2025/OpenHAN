@@ -22,7 +22,7 @@
 
 ⌨️ **Android Korean input fixed** — Korean typed with a phone keyboard no longer disappears or doubles up.
 
-🔑 **Pollinations free key support** — paste a key from `enter.pollinations.ai` in **Tools → Settings → AI** to use the new Pollinations endpoint with higher limits. Keyless use still works.
+🔑 **Built-in Pollinations key** — OpenHAN ships with its own Pollinations key, so AI works out of the box on the new endpoint with higher limits. You can still use your own key in **Tools → Settings → AI**.
 
 ### ✨ Added in v2.0
 

@@ -37,7 +37,7 @@ Designed with the document-editing needs of Korean users in mind, OpenHAN brings
 | | |
 | :--- | :--- |
 | ✨ **OpenHAN AI** | AI assistant, Korean spelling & spacing check with one-click fix, official/academic style rewriter, HWP summary card viewer |
-| 🔑 **Free AI auto-failover** | Gemini · Groq · Mistral · Cerebras · OpenRouter · Pollinations (works keyless; a free key raises limits) · local Ollama — switches to the next provider when a limit is hit |
+| 🔑 **Free AI auto-failover** | Gemini · Groq · Mistral · Cerebras · OpenRouter · Pollinations (built-in OpenHAN key · works out of the box) · local Ollama — switches to the next provider when a limit is hit |
 | 🤖 **Android app** | Phone-first layout (app bar, bottom format bar, feature sheet); open HWP files from other apps with OpenHAN |
 | 🍎 **macOS support** | Traffic-light window buttons, ⌘ shortcuts, open documents from Finder (Apple silicon & Intel) |
 | 💿 **Installer** | Windows Setup installer plus a portable exe |
