@@ -1,4 +1,4 @@
-# 📝 OpenHAN **v2.0.0** · *Official Release*
+# 📝 OpenHAN **v2.5.0** · *Official Release* · 🍎 macOS added
 
 ✨ **From HWP/HWPX editing to an AI assistant, Korean spell checking, official-style rewriting, and AI background removal — on PC and phone.**
 
@@ -6,16 +6,25 @@
 
 | Platform | File | Notes |
 | :--- | :--- | :--- |
-| 🪟 **Windows installer** | [`OpenHAN-2.0.0-Setup.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.0.0/OpenHAN-2.0.0-Setup.exe) | Creates Start menu and desktop shortcuts **(recommended)** |
-| 🪟 **Windows portable** | [`OpenHAN-2.0.0-Portable.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.0.0/OpenHAN-2.0.0-Portable.exe) | Single file, no installation |
-| 🤖 **Android** | [`OpenHAN-2.0.0-Android.apk`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.0.0/OpenHAN-2.0.0-Android.apk) | Copy to your phone and install (allow unknown sources) |
-| 🍎 **macOS** | Coming soon | Will be added after building on macOS |
+| 🪟 **Windows installer** | [`OpenHAN-2.5.0-Setup.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-Setup.exe) | Creates Start menu and desktop shortcuts **(recommended)** |
+| 🪟 **Windows portable** | [`OpenHAN-2.5.0-Portable.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-Portable.exe) | Single file, no installation |
+| 🤖 **Android** | [`OpenHAN-2.5.0-Android.apk`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-Android.apk) | Copy to your phone and install (allow unknown sources) |
+| 🍎 **macOS (Apple silicon)** | [`OpenHAN-2.5.0-mac-arm64.dmg`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-mac-arm64.dmg) | M1–M4 Macs |
+| 🍎 **macOS (Intel)** | [`OpenHAN-2.5.0-mac-x64.dmg`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-mac-x64.dmg) | Intel Macs · `.zip` also provided |
 
 > ⚠️ The app is not code-signed, so **Windows SmartScreen** may warn on first launch — click **More info → Run anyway**.
 >
-> 📦 `OpenHAN.v2.0.0.zip` / `.7z` are the **earlier build** (no AI or Android features).
+> 🍎 The macOS app is not notarized, so the first launch shows an "unidentified developer" warning — **right-click the app → Open**, or run `xattr -cr /Applications/OpenHAN.app`.
 
-### 🆕 New in this build
+### 🆕 What changed in v2.5.0
+
+🍎 **macOS app** — builds for Apple silicon (arm64) and Intel (x64).
+
+⌨️ **Android Korean input fixed** — Korean typed with a phone keyboard no longer disappears or doubles up.
+
+🔑 **Pollinations free key support** — paste a key from `enter.pollinations.ai` in **Tools → Settings → AI** to use the new Pollinations endpoint with higher limits. Keyless use still works.
+
+### ✨ Added in v2.0
 
 ✨ **AI assistant** — say "write meeting minutes", "make a monthly budget table", or "switch to landscape" and it acts on the document. (`Ctrl+K, A`)
 
@@ -29,7 +38,7 @@
 
 🤖 **Android app** — phone-first layout, save via the share sheet, open HWP files from other apps.
 
-🍎 **macOS support** — traffic-light buttons, ⌘ shortcuts, open from Finder (macOS build coming).
+🍎 **macOS support** — traffic-light buttons, ⌘ shortcuts, open from Finder.
 
 💿 **Installer & default app** — Setup installer, and double-click hwp · hwpx · ohan · txt · html to open in OpenHAN.
 
@@ -38,8 +47,8 @@
 ### 🛠️ Project Overview
 
 🏷️ **Name:** OpenHAN  
-💎 **Version:** 2.0.0  
-🖥️ **Platforms:** Windows x64 · Android · macOS (coming)  
+💎 **Version:** 2.5.0  
+🖥️ **Platforms:** Windows x64 · Android · macOS  
 ⚙️ **Core:** Electron · Capacitor · React · Tiptap / ProseMirror  
 🧠 **AI:** OpenAI-compatible providers with failover · bundled U²-Net (ONNX Runtime, local)  
 📜 **License:** MIT

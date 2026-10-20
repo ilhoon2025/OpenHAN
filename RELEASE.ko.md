@@ -1,4 +1,4 @@
-# 📝 OpenHAN **v2.0.0** · **_정식 릴리즈_**
+# 📝 OpenHAN **v2.5.0** · **_정식 릴리즈_** · 🍎 macOS 추가
 
 ✨ **HWP/HWPX 편집부터 AI 비서·맞춤법·공문서체 변환, AI 누끼 따기까지 — PC와 휴대폰에서.**
 
@@ -14,16 +14,25 @@
 
 | 플랫폼 | 파일 | 안내 |
 | :--- | :--- | :--- |
-| 🪟 **Windows 설치** | [`OpenHAN-2.0.0-Setup.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.0.0/OpenHAN-2.0.0-Setup.exe) | 설치 위치를 고르면 시작 메뉴·바탕화면 바로가기가 생깁니다 **(추천)** |
-| 🪟 **Windows 포터블** | [`OpenHAN-2.0.0-Portable.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.0.0/OpenHAN-2.0.0-Portable.exe) | 설치 없이 파일 하나로 바로 실행 |
-| 🤖 **Android** | [`OpenHAN-2.0.0-Android.apk`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.0.0/OpenHAN-2.0.0-Android.apk) | 휴대폰으로 옮겨 설치 (출처를 알 수 없는 앱 설치 허용 필요) |
-| 🍎 **macOS** | 준비 중 | macOS에서 빌드한 뒤 추가할 예정입니다 |
+| 🪟 **Windows 설치** | [`OpenHAN-2.5.0-Setup.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-Setup.exe) | 설치 위치를 고르면 시작 메뉴·바탕화면 바로가기가 생깁니다 **(추천)** |
+| 🪟 **Windows 포터블** | [`OpenHAN-2.5.0-Portable.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-Portable.exe) | 설치 없이 파일 하나로 바로 실행 |
+| 🤖 **Android** | [`OpenHAN-2.5.0-Android.apk`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-Android.apk) | 휴대폰으로 옮겨 설치 (출처를 알 수 없는 앱 설치 허용 필요) |
+| 🍎 **macOS (Apple 실리콘)** | [`OpenHAN-2.5.0-mac-arm64.dmg`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-mac-arm64.dmg) | M1~M4 Mac |
+| 🍎 **macOS (Intel)** | [`OpenHAN-2.5.0-mac-x64.dmg`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-mac-x64.dmg) | Intel Mac · `.zip`도 함께 제공 |
 
 > ⚠️ 코드 서명 인증서가 없는 무료 프로그램이라 처음 실행할 때 **Windows SmartScreen** 경고가 뜰 수 있습니다. **추가 정보 → 실행**을 누르세요.
 >
-> 📦 `OpenHAN.v2.0.0.zip` / `.7z`는 **이전 빌드**(AI·안드로이드 기능 없음)입니다. 새로 받으신다면 위의 Setup/Portable을 쓰세요.
+> 🍎 macOS용은 Apple 공증을 받지 않아 처음 열 때 "확인되지 않은 개발자" 경고가 뜹니다. 앱을 **우클릭 → 열기**를 누르거나, 터미널에서 `xattr -cr /Applications/OpenHAN.app`을 실행하세요.
 
-### 🆕 이번 빌드에서 추가된 기능
+### 🆕 v2.5.0에서 바뀐 점
+
+🍎 **macOS 앱 정식 제공** — Apple 실리콘(arm64)과 Intel(x64) 빌드를 모두 제공합니다.
+
+⌨️ **안드로이드 한글 입력 수정** — 휴대폰 키보드로 한글이 안 써지거나 글자가 겹치던 문제를 고쳤습니다. (조합 중 쪽 나눔·단축키·덮어쓰기 처리가 끼어들지 않도록 변경)
+
+🔑 **Pollinations 무료 키 지원** — `enter.pollinations.ai`에서 받은 키를 **도구 → 환경 설정 → AI**에 넣으면 새 Pollinations 서버로 연결되어 한도가 넉넉해집니다. 키 없이도 계속 쓸 수 있습니다.
+
+### ✨ v2.0에서 추가된 기능
 
 ✨ **AI 비서** — "회의록 써 줘", "월별 예산 표 만들어 줘", "용지를 가로로 바꿔 줘"처럼 말하면 문서에 바로 실행합니다. (`Ctrl+K, A`)
 
@@ -58,7 +67,7 @@
   <img src="https://raw.githubusercontent.com/ilhoon2025/OpenHAN/main/docs/images/android-menu.png" alt="안드로이드 기능 시트" width="240">
 </p>
 
-🍎 **macOS 대응** — 신호등 창 단추, ⌘ 단축키, Finder에서 문서 열기 (macOS 빌드는 곧 추가)
+🍎 **macOS 대응** — 신호등 창 단추, ⌘ 단축키, Finder에서 문서 열기
 
 💿 **설치 파일과 기본 앱 설정** — Setup 설치 파일을 제공하고, hwp · hwpx · ohan · txt · html을 두 번 눌러 OpenHAN으로 열 수 있습니다.
 
@@ -67,8 +76,8 @@
 ### 🛠️ 프로젝트 소개
 
 🏷️ **이름:** OpenHAN  
-💎 **버전:** 2.0.0  
-🖥️ **플랫폼:** Windows x64 · Android · macOS(준비 중)  
+💎 **버전:** 2.5.0  
+🖥️ **플랫폼:** Windows x64 · Android · macOS  
 🇰🇷 **개발:** 100% Korean-Developed · Made in Korea  
 ⚙️ **기반 기술:** Electron · Capacitor · React · Tiptap / ProseMirror  
 🧠 **AI:** OpenAI 호환 API 자동 전환 · 내장 U²-Net 모델(ONNX Runtime, 로컬)  
@@ -102,7 +111,7 @@
 
 ### 📖 사용 방법
 
-🚀 **실행:** `OpenHAN-2.0.0-Setup.exe`로 설치하거나 Portable을 바로 실행하세요.  
+🚀 **실행:** `OpenHAN-2.5.0-Setup.exe`로 설치하거나 Portable을 바로 실행하세요.  
 📂 **불러오기:** **Ctrl+O**로 문서를 선택하세요.  
 ✍️ **새 문서:** **Alt+N**을 누르거나 시작 화면에서 서식을 고르세요.  
 ✨ **AI 비서:** **Ctrl+K, A** — 맞춤법은 **F8**, 자동 수정은 **Ctrl+F8**  

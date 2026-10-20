@@ -12,9 +12,9 @@
 
 **HWP/HWPX 문서 호환 · 한글 단축키 · AI 비서와 맞춤법 · 로컬 AI 누끼 따기를 갖춘 한글 워드프로세서입니다.**
 
-🪟 Windows · 🍎 macOS · 🤖 Android · 💎 v2.0.0 · 🎨 3가지 화면 테마 · ✨ AI · 📜 MIT
+🪟 Windows · 🍎 macOS · 🤖 Android · 💎 v2.5.0 · 🎨 3가지 화면 테마 · ✨ AI · 📜 MIT
 
-[English · README](README.en.md) · [📥 다운로드](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.0.0)
+[English · README](README.en.md) · [📥 다운로드](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.5.0)
 
 </div>
 
@@ -39,9 +39,9 @@
 | | 내용 |
 | :--- | :--- |
 | ✨ **OpenHAN AI** | AI 비서, 맞춤법·띄어쓰기 검사와 자동 수정, 공문서체·논문체 변환, HWP 요약 카드 뷰어 |
-| 🔑 **무료 AI 자동 전환** | Gemini · Groq · Mistral · Cerebras · OpenRouter · Pollinations(키 없음) · 로컬 Ollama — 한도에 걸리면 다음 AI로 자동으로 넘어갑니다 |
+| 🔑 **무료 AI 자동 전환** | Gemini · Groq · Mistral · Cerebras · OpenRouter · Pollinations(키 없이도 사용, 무료 키를 넣으면 한도 완화) · 로컬 Ollama — 한도에 걸리면 다음 AI로 자동으로 넘어갑니다 |
 | 🤖 **안드로이드 앱** | 휴대폰 전용 화면(앱 바 · 아래 서식 줄 · 기능 시트), 다른 앱에서 HWP를 OpenHAN으로 열기 |
-| 🍎 **macOS 지원** | 신호등 창 단추, ⌘ 단축키, Finder에서 문서 열기 (macOS에서 빌드) |
+| 🍎 **macOS 지원** | 신호등 창 단추, ⌘ 단축키, Finder에서 문서 열기 (Apple 실리콘·Intel 지원) |
 | 💿 **설치 파일 제공** | Windows 설치 파일(Setup)과 설치 없이 실행하는 포터블 exe |
 | 📂 **기본 앱 설정** | hwp · hwpx · ohan · txt · html을 두 번 눌러 OpenHAN으로 열기 |
 | 🎨 **테마별 새 로고** | 2010 · 2018 · 2024 테마마다 그 시절 느낌의 로고, 2018 테마의 사선 모서리 탭 |
@@ -162,14 +162,15 @@ ONNX Runtime으로 **로컬에서** 실행되는 U²-Net 모델로 이미지 배
 
 ## 📥 다운로드 및 실행
 
-[**Releases 페이지**](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.0.0)에서 내려받으세요.
+[**Releases 페이지**](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.5.0)에서 내려받으세요.
 
 | 플랫폼 | 파일 | 실행 방법 |
 | :--- | :--- | :--- |
-| 🪟 Windows (설치) | `OpenHAN-2.0.0-Setup.exe` | 실행 후 설치 위치를 고르면 시작 메뉴·바탕화면에 바로가기가 생깁니다 |
-| 🪟 Windows (포터블) | `OpenHAN-2.0.0-Portable.exe` | 설치 없이 바로 실행합니다 |
-| 🤖 Android | `OpenHAN-2.0.0-Android.apk` | 휴대폰으로 옮겨 설치합니다 (출처를 알 수 없는 앱 설치 허용 필요) |
-| 🍎 macOS | 준비 중 | macOS에서 빌드해야 하므로 곧 제공할 예정입니다 |
+| 🪟 Windows (설치) | `OpenHAN-2.5.0-Setup.exe` | 실행 후 설치 위치를 고르면 시작 메뉴·바탕화면에 바로가기가 생깁니다 |
+| 🪟 Windows (포터블) | `OpenHAN-2.5.0-Portable.exe` | 설치 없이 바로 실행합니다 |
+| 🤖 Android | `OpenHAN-2.5.0-Android.apk` | 휴대폰으로 옮겨 설치합니다 (출처를 알 수 없는 앱 설치 허용 필요) |
+| 🍎 macOS (Apple 실리콘) | `OpenHAN-2.5.0-mac-arm64.dmg` | M1~M4 Mac. 처음 열 때 **우클릭 → 열기** (또는 터미널에서 `xattr -cr /Applications/OpenHAN.app`) |
+| 🍎 macOS (Intel) | `OpenHAN-2.5.0-mac-x64.dmg` | Intel Mac. 위와 같이 처음 한 번만 우클릭 → 열기 |
 
 > **처음 실행할 때 Windows SmartScreen 경고가 뜰 수 있습니다.** 코드 서명 인증서가 없는 무료 프로그램이라 그렇습니다. **추가 정보 → 실행**을 누르세요.
 
@@ -310,6 +311,6 @@ OpenHAN은 독립적인 오픈소스 프로젝트이며 (주)한글과컴퓨터�
 
 대한민국에서 시작한 새로운 문서 작성 경험.
 
-**Windows · macOS · Android · Version 2.0.0 · MIT License**
+**Windows · macOS · Android · Version 2.5.0 · MIT License**
 
 </div>

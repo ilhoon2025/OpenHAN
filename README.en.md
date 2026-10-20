@@ -12,9 +12,9 @@
 
 **A Korean word processor with HWP/HWPX compatibility, Hangul-style shortcuts, an AI assistant and spell checker, and local AI background removal.**
 
-🪟 Windows · 🍎 macOS · 🤖 Android · 💎 v2.0.0 · 🎨 3 Interface Themes · ✨ AI · 📜 MIT
+🪟 Windows · 🍎 macOS · 🤖 Android · 💎 v2.5.0 · 🎨 3 Interface Themes · ✨ AI · 📜 MIT
 
-[🇰🇷 한국어 · README](README.md) · [📥 Download](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.0.0)
+[🇰🇷 한국어 · README](README.md) · [📥 Download](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.5.0)
 
 </div>
 
@@ -37,9 +37,9 @@ Designed with the document-editing needs of Korean users in mind, OpenHAN brings
 | | |
 | :--- | :--- |
 | ✨ **OpenHAN AI** | AI assistant, Korean spelling & spacing check with one-click fix, official/academic style rewriter, HWP summary card viewer |
-| 🔑 **Free AI auto-failover** | Gemini · Groq · Mistral · Cerebras · OpenRouter · Pollinations (no key) · local Ollama — switches to the next provider when a limit is hit |
+| 🔑 **Free AI auto-failover** | Gemini · Groq · Mistral · Cerebras · OpenRouter · Pollinations (works keyless; a free key raises limits) · local Ollama — switches to the next provider when a limit is hit |
 | 🤖 **Android app** | Phone-first layout (app bar, bottom format bar, feature sheet); open HWP files from other apps with OpenHAN |
-| 🍎 **macOS support** | Traffic-light window buttons, ⌘ shortcuts, open documents from Finder (built on macOS) |
+| 🍎 **macOS support** | Traffic-light window buttons, ⌘ shortcuts, open documents from Finder (Apple silicon & Intel) |
 | 💿 **Installer** | Windows Setup installer plus a portable exe |
 | 📂 **Default app** | Open hwp · hwpx · ohan · txt · html with a double-click |
 | 🎨 **New per-theme logos** | A logo for each of the 2010 · 2018 · 2024 themes, plus the diagonal corner tab in the 2018 theme |
@@ -160,14 +160,15 @@ The same features in a phone layout: top app bar, bottom format bar, and a ⋮ f
 
 ## 📥 Download
 
-Get the files from the [**Releases page**](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.0.0).
+Get the files from the [**Releases page**](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.5.0).
 
 | Platform | File | How to run |
 | :--- | :--- | :--- |
-| 🪟 Windows (installer) | `OpenHAN-2.0.0-Setup.exe` | Choose an install folder; Start menu and desktop shortcuts are created |
-| 🪟 Windows (portable) | `OpenHAN-2.0.0-Portable.exe` | Runs without installing |
-| 🤖 Android | `OpenHAN-2.0.0-Android.apk` | Copy to your phone and install (allow installs from unknown sources) |
-| 🍎 macOS | Coming soon | Must be built on macOS |
+| 🪟 Windows (installer) | `OpenHAN-2.5.0-Setup.exe` | Choose an install folder; Start menu and desktop shortcuts are created |
+| 🪟 Windows (portable) | `OpenHAN-2.5.0-Portable.exe` | Runs without installing |
+| 🤖 Android | `OpenHAN-2.5.0-Android.apk` | Copy to your phone and install (allow installs from unknown sources) |
+| 🍎 macOS (Apple silicon) | `OpenHAN-2.5.0-mac-arm64.dmg` | M1–M4 Macs. First launch: **right-click → Open** (or `xattr -cr /Applications/OpenHAN.app`) |
+| 🍎 macOS (Intel) | `OpenHAN-2.5.0-mac-x64.dmg` | Intel Macs. Right-click → Open once, as above |
 
 > **Windows SmartScreen may warn on first launch** because the app is not code-signed. Click **More info → Run anyway**.
 
@@ -306,6 +307,6 @@ OpenHAN is an independent open-source project and is not affiliated with Hancom 
 
 Familiar Writing. More Possibilities.
 
-**Windows · macOS · Android · Version 2.0.0 · MIT License**
+**Windows · macOS · Android · Version 2.5.0 · MIT License**
 
 </div>
