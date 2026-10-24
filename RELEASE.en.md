@@ -1,4 +1,4 @@
-# 📝 OpenHAN **v2.5.0** · *Official Release* · 🍎 macOS added
+# 📝 OpenHAN **v2.6.0** · *Official Release* · 🌐 AI web search · 🗂️ PC files
 
 ✨ **From HWP/HWPX editing to an AI assistant, Korean spell checking, official-style rewriting, and AI background removal — on PC and phone.**
 
@@ -6,15 +6,29 @@
 
 | Platform | File | Notes |
 | :--- | :--- | :--- |
-| 🪟 **Windows installer** | [`OpenHAN-2.5.0-Setup.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-Setup.exe) | Creates Start menu and desktop shortcuts **(recommended)** |
-| 🪟 **Windows portable** | [`OpenHAN-2.5.0-Portable.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-Portable.exe) | Single file, no installation |
-| 🤖 **Android** | [`OpenHAN-2.5.0-Android.apk`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-Android.apk) | Copy to your phone and install (allow unknown sources) |
-| 🍎 **macOS (Apple silicon)** | [`OpenHAN-2.5.0-mac-arm64.dmg`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-mac-arm64.dmg) | M1–M4 Macs |
-| 🍎 **macOS (Intel)** | [`OpenHAN-2.5.0-mac-x64.dmg`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-mac-x64.dmg) | Intel Macs · `.zip` also provided |
+| 🪟 **Windows installer** | [`OpenHAN-2.6.0-Setup.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.6.0/OpenHAN-2.6.0-Setup.exe) | Creates Start menu and desktop shortcuts **(recommended)** |
+| 🪟 **Windows portable** | [`OpenHAN-2.6.0-Portable.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.6.0/OpenHAN-2.6.0-Portable.exe) | Single file, no installation |
+| 🤖 **Android** | [`OpenHAN-2.6.0-Android.apk`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.6.0/OpenHAN-2.6.0-Android.apk) | Copy to your phone and install (allow unknown sources) |
+| 🍎 **macOS (Apple silicon)** | [`OpenHAN-2.6.0-mac-arm64.dmg`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.6.0/OpenHAN-2.6.0-mac-arm64.dmg) | M1–M4 Macs |
+| 🍎 **macOS (Intel)** | [`OpenHAN-2.6.0-mac-x64.dmg`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.6.0/OpenHAN-2.6.0-mac-x64.dmg) | Intel Macs · `.zip` also provided |
 
 > ⚠️ The app is not code-signed, so **Windows SmartScreen** may warn on first launch — click **More info → Run anyway**.
 >
 > 🍎 The macOS app is not notarized, so the first launch shows an "unidentified developer" warning — **right-click the app → Open**, or run `xattr -cr /Applications/OpenHAN.app`.
+
+### 🆕 What changed in v2.6.0
+
+🌐 **AI web search** — the assistant searches the web and reads pages when it needs to; paste a link and it reads that page. Answers show their sources. Turn on **Web search** to search before every question. (No key needed.)
+
+📎 **Attach anything** — photos (the AI looks at them), code, PDF, Word, Excel, PowerPoint, HWP, ZIP and video frames. Drag & drop and paste work too. Code, tables and lists in answers are now nicely formatted.
+
+🖼️ **Find & insert web photos, or generate one** — "insert a photo of …" makes the AI look at candidate thumbnails, insert the best one, and add a source/license caption. If nothing fits (or you ask it to draw), it generates an image.
+
+🧰 **Every app tool** — merge table cells, add rows, color cells, resize images, remove backgrounds without a dialog, new document from a template, insert links — 130+ app commands by voice.
+
+🗂️ **Your PC files (opt-in, off by default)** — choose **Off / Read-only / Read & write** from the 🗂 button. The AI can then find and read files, and save/copy/move/rename/trash them. Pick the allowed folders; a confirmation dialog appears before changes (default); system folders, AppData, .ssh and executables are always blocked.
+
+💬 **New input bar** — text box, 📎 · Web search · My PC buttons and Send in one rounded card that grows as you type.
 
 ### 🆕 What changed in v2.5.0
 
@@ -47,7 +61,7 @@
 ### 🛠️ Project Overview
 
 🏷️ **Name:** OpenHAN  
-💎 **Version:** 2.5.0  
+💎 **Version:** 2.6.0  
 🖥️ **Platforms:** Windows x64 · Android · macOS  
 ⚙️ **Core:** Electron · Capacitor · React · Tiptap / ProseMirror  
 🧠 **AI:** OpenAI-compatible providers with failover · bundled U²-Net (ONNX Runtime, local)  

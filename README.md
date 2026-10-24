@@ -12,9 +12,9 @@
 
 **HWP/HWPX 문서 호환 · 한글 단축키 · AI 비서와 맞춤법 · 로컬 AI 누끼 따기를 갖춘 한글 워드프로세서입니다.**
 
-🪟 Windows · 🍎 macOS · 🤖 Android · 💎 v2.5.0 · 🎨 3가지 화면 테마 · ✨ AI · 📜 MIT
+🪟 Windows · 🍎 macOS · 🤖 Android · 💎 v2.6.0 · 🎨 3가지 화면 테마 · ✨ AI · 📜 MIT
 
-[English · README](README.en.md) · [📥 다운로드](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.5.0)
+[English · README](README.en.md) · [📥 다운로드](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.6.0)
 
 </div>
 
@@ -38,6 +38,11 @@
 
 | | 내용 |
 | :--- | :--- |
+| 🌐 **AI 웹 검색** | AI가 필요하면 스스로 웹을 검색하고 페이지를 읽어 답합니다. 링크를 붙여 넣으면 그 페이지를 읽고, 답 아래에 출처가 붙습니다 (키 필요 없음) |
+| 📎 **무엇이든 첨부** | 사진(AI가 직접 봄) · 코드 · PDF · 워드 · 엑셀 · 파워포인트 · 한글 · ZIP · 동영상(장면) — 끌어다 놓기·붙여넣기도 됩니다 |
+| 🖼️ **웹 사진 찾아 넣기** | "○○ 사진 넣어 줘" → AI가 후보 사진을 직접 보고 골라 문서에 넣고 출처·라이선스 캡션을 붙입니다. 없으면 그림을 직접 만들어 넣습니다 |
+| 🧰 **앱의 모든 도구** | 표 칸 합치기·행 추가·칸 색, 그림 크기·누끼 따기, 서식으로 새 문서 등 앱 기능 130여 개를 AI가 직접 실행합니다 |
+| 🗂️ **내 컴퓨터 파일 (선택)** | 켜면 AI가 내 PC 파일을 찾고 읽고(읽기만), 저장·복사·이름 바꾸기까지(읽기·쓰기) 합니다. **기본값은 꺼짐**, 허용 폴더·변경 전 확인·시스템 폴더 차단 |
 | ✨ **OpenHAN AI** | AI 비서, 맞춤법·띄어쓰기 검사와 자동 수정, 공문서체·논문체 변환, HWP 요약 카드 뷰어 |
 | 🔑 **무료 AI 자동 전환** | Gemini · Groq · Mistral · Cerebras · OpenRouter · Pollinations(OpenHAN 키 내장 · 설정 없이 바로 사용) · 로컬 Ollama — 한도에 걸리면 다음 AI로 자동으로 넘어갑니다 |
 | 🤖 **안드로이드 앱** | 휴대폰 전용 화면(앱 바 · 아래 서식 줄 · 기능 시트), 다른 앱에서 HWP를 OpenHAN으로 열기 |
@@ -115,6 +120,25 @@ OpenHAN에서 저장한 HWP/HWPX를 한컴오피스 한글 2024에서 열어 글
   <img src="docs/images/ai-cards.png" alt="HWP 요약 카드 뷰어" width="680">
 </p>
 
+#### 🌐 웹 검색 · 📎 무엇이든 첨부 · 🖼️ 웹 사진 넣기
+
+AI 비서는 필요하면 **스스로 웹을 검색**하고 페이지를 읽어 답하고, 답 아래에 출처를 붙입니다. 입력창의 **웹 검색**을 켜면 질문마다 먼저 찾아봅니다.
+**📎** 버튼(또는 끌어다 놓기·붙여넣기)으로 사진·코드·PDF·워드·엑셀·파워포인트·한글·ZIP·동영상을 올리면 AI가 내용을 읽고, 사진은 직접 봅니다.
+"성산일출봉 사진 넣어 줘"라고 하면 후보 사진들을 **직접 보고 골라** 문서에 넣고 출처·라이선스 캡션을 붙입니다. 알맞은 사진이 없으면 그림을 만들어 넣습니다.
+
+<p align="center">
+  <img src="docs/images/ai-photo.png" alt="AI가 웹에서 성산일출봉 사진을 찾아 문서에 넣고 소개 글을 쓴 화면" width="680">
+</p>
+
+#### 🗂️ 내 컴퓨터 파일 (선택, 기본값 꺼짐)
+
+입력창의 **🗂 내 PC** 버튼(또는 환경 설정 › AI)에서 **끔 / 읽기만 / 읽기·쓰기**를 고릅니다. 켜면 "다운로드 폴더에서 예산 엑셀 찾아서 합계 알려 줘", "지금 문서를 바탕 화면에 hwp로 저장해 줘" 같은 일을 시킬 수 있습니다.
+AI가 쓸 수 있는 폴더를 정할 수 있고, 파일을 바꾸기 전에는 매번 확인 창이 뜹니다(기본). 시스템 폴더·AppData·.ssh와 실행 파일은 항상 막혀 있고, 지운 파일은 휴지통으로 갑니다.
+
+<p align="center">
+  <img src="docs/images/ai-pc-access.png" alt="내 컴퓨터 파일 접근 설정 (끔/읽기만/읽기·쓰기)" width="360">
+</p>
+
 #### 🔑 무료 AI 자동 전환
 
 완전히 무제한인 무료 클라우드 AI는 없기 때문에, 여러 곳의 **무료 API 키**를 넣어 두면 하나가 한도에 걸려도 자동으로 다음 AI로 넘어갑니다. 키가 없어도 Pollinations로 바로 쓸 수 있고, 이 PC에서 돌아가는 **로컬 AI(Ollama)**는 무제한이며 문서가 밖으로 나가지 않습니다.
@@ -162,15 +186,15 @@ ONNX Runtime으로 **로컬에서** 실행되는 U²-Net 모델로 이미지 배
 
 ## 📥 다운로드 및 실행
 
-[**Releases 페이지**](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.5.0)에서 내려받으세요.
+[**Releases 페이지**](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.6.0)에서 내려받으세요.
 
 | 플랫폼 | 파일 | 실행 방법 |
 | :--- | :--- | :--- |
-| 🪟 Windows (설치) | `OpenHAN-2.5.0-Setup.exe` | 실행 후 설치 위치를 고르면 시작 메뉴·바탕화면에 바로가기가 생깁니다 |
-| 🪟 Windows (포터블) | `OpenHAN-2.5.0-Portable.exe` | 설치 없이 바로 실행합니다 |
-| 🤖 Android | `OpenHAN-2.5.0-Android.apk` | 휴대폰으로 옮겨 설치합니다 (출처를 알 수 없는 앱 설치 허용 필요) |
-| 🍎 macOS (Apple 실리콘) | `OpenHAN-2.5.0-mac-arm64.dmg` | M1~M4 Mac. 처음 열 때 **우클릭 → 열기** (또는 터미널에서 `xattr -cr /Applications/OpenHAN.app`) |
-| 🍎 macOS (Intel) | `OpenHAN-2.5.0-mac-x64.dmg` | Intel Mac. 위와 같이 처음 한 번만 우클릭 → 열기 |
+| 🪟 Windows (설치) | `OpenHAN-2.6.0-Setup.exe` | 실행 후 설치 위치를 고르면 시작 메뉴·바탕화면에 바로가기가 생깁니다 |
+| 🪟 Windows (포터블) | `OpenHAN-2.6.0-Portable.exe` | 설치 없이 바로 실행합니다 |
+| 🤖 Android | `OpenHAN-2.6.0-Android.apk` | 휴대폰으로 옮겨 설치합니다 (출처를 알 수 없는 앱 설치 허용 필요) |
+| 🍎 macOS (Apple 실리콘) | `OpenHAN-2.6.0-mac-arm64.dmg` | M1~M4 Mac. 처음 열 때 **우클릭 → 열기** (또는 터미널에서 `xattr -cr /Applications/OpenHAN.app`) |
+| 🍎 macOS (Intel) | `OpenHAN-2.6.0-mac-x64.dmg` | Intel Mac. 위와 같이 처음 한 번만 우클릭 → 열기 |
 
 > **처음 실행할 때 Windows SmartScreen 경고가 뜰 수 있습니다.** 코드 서명 인증서가 없는 무료 프로그램이라 그렇습니다. **추가 정보 → 실행**을 누르세요.
 
@@ -311,6 +335,6 @@ OpenHAN은 독립적인 오픈소스 프로젝트이며 (주)한글과컴퓨터�
 
 대한민국에서 시작한 새로운 문서 작성 경험.
 
-**Windows · macOS · Android · Version 2.5.0 · MIT License**
+**Windows · macOS · Android · Version 2.6.0 · MIT License**
 
 </div>

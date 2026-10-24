@@ -12,9 +12,9 @@
 
 **A Korean word processor with HWP/HWPX compatibility, Hangul-style shortcuts, an AI assistant and spell checker, and local AI background removal.**
 
-🪟 Windows · 🍎 macOS · 🤖 Android · 💎 v2.5.0 · 🎨 3 Interface Themes · ✨ AI · 📜 MIT
+🪟 Windows · 🍎 macOS · 🤖 Android · 💎 v2.6.0 · 🎨 3 Interface Themes · ✨ AI · 📜 MIT
 
-[🇰🇷 한국어 · README](README.md) · [📥 Download](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.5.0)
+[🇰🇷 한국어 · README](README.md) · [📥 Download](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.6.0)
 
 </div>
 
@@ -36,6 +36,11 @@ Designed with the document-editing needs of Korean users in mind, OpenHAN brings
 
 | | |
 | :--- | :--- |
+| 🌐 **AI web search** | The AI searches the web and reads pages when it needs to; paste a link and it reads that page. Answers show their sources (no key needed) |
+| 📎 **Attach anything** | Photos (the AI looks at them) · code · PDF · Word · Excel · PowerPoint · HWP · ZIP · video frames — drag & drop or paste too |
+| 🖼️ **Find & insert web photos** | "Insert a photo of …" → the AI looks at candidate thumbnails, inserts the best one with a source/license caption, or generates an image |
+| 🧰 **Every app tool** | Merge table cells, add rows, color cells, resize images, remove backgrounds, new document from a template — 130+ app commands |
+| 🗂️ **Your PC files (opt-in)** | Let the AI find and read files (read-only) or also save/copy/rename them (read & write). **Off by default**, allowed folders, confirm before changes, system folders always blocked |
 | ✨ **OpenHAN AI** | AI assistant, Korean spelling & spacing check with one-click fix, official/academic style rewriter, HWP summary card viewer |
 | 🔑 **Free AI auto-failover** | Gemini · Groq · Mistral · Cerebras · OpenRouter · Pollinations (built-in OpenHAN key · works out of the box) · local Ollama — switches to the next provider when a limit is hit |
 | 🤖 **Android app** | Phone-first layout (app bar, bottom format bar, feature sheet); open HWP files from other apps with OpenHAN |
@@ -113,6 +118,25 @@ Skim a long HWP without opening it: a phone-style card view with a one-line summ
   <img src="docs/images/ai-cards.png" alt="HWP summary card viewer" width="680">
 </p>
 
+#### 🌐 Web search · 📎 Attach anything · 🖼️ Web photos
+
+The assistant **searches the web on its own** when it needs fresh facts, reads pages, and cites its sources. Turn on **Web search** in the input bar to search before every question.
+Use **📎** (or drag & drop / paste) to attach photos, code, PDF, Word, Excel, PowerPoint, HWP, ZIP or video — the AI reads the content and looks at images.
+Ask "insert a photo of Seongsan Ilchulbong" and it **looks at the candidate thumbnails**, inserts the best one with a source/license caption, or generates an illustration if nothing fits.
+
+<p align="center">
+  <img src="docs/images/ai-photo.png" alt="AI found a photo on the web, inserted it, and wrote an introduction" width="680">
+</p>
+
+#### 🗂️ Your PC files (opt-in, off by default)
+
+Choose **Off / Read-only / Read & write** from the **🗂 My PC** button in the input bar (or Settings › AI). Then ask things like "find the budget spreadsheet in Downloads and tell me the total" or "save this document to my desktop as HWP".
+You choose which folders the AI may use, and a confirmation dialog appears before any change (default). System folders, AppData, .ssh and executables are always blocked, and deleted files go to the Recycle Bin.
+
+<p align="center">
+  <img src="docs/images/ai-pc-access.png" alt="PC file access setting (Off / Read-only / Read & write)" width="360">
+</p>
+
 #### 🔑 Free AI with automatic failover
 
 No cloud AI is truly unlimited for free, so you can add **free API keys** from several providers and OpenHAN moves to the next one when a limit is reached. It works without any key via Pollinations, and a **local AI (Ollama)** on your PC is unlimited and keeps documents on your machine.
@@ -160,15 +184,15 @@ The same features in a phone layout: top app bar, bottom format bar, and a ⋮ f
 
 ## 📥 Download
 
-Get the files from the [**Releases page**](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.5.0).
+Get the files from the [**Releases page**](https://github.com/ilhoon2025/OpenHAN/releases/tag/v2.6.0).
 
 | Platform | File | How to run |
 | :--- | :--- | :--- |
-| 🪟 Windows (installer) | `OpenHAN-2.5.0-Setup.exe` | Choose an install folder; Start menu and desktop shortcuts are created |
-| 🪟 Windows (portable) | `OpenHAN-2.5.0-Portable.exe` | Runs without installing |
-| 🤖 Android | `OpenHAN-2.5.0-Android.apk` | Copy to your phone and install (allow installs from unknown sources) |
-| 🍎 macOS (Apple silicon) | `OpenHAN-2.5.0-mac-arm64.dmg` | M1–M4 Macs. First launch: **right-click → Open** (or `xattr -cr /Applications/OpenHAN.app`) |
-| 🍎 macOS (Intel) | `OpenHAN-2.5.0-mac-x64.dmg` | Intel Macs. Right-click → Open once, as above |
+| 🪟 Windows (installer) | `OpenHAN-2.6.0-Setup.exe` | Choose an install folder; Start menu and desktop shortcuts are created |
+| 🪟 Windows (portable) | `OpenHAN-2.6.0-Portable.exe` | Runs without installing |
+| 🤖 Android | `OpenHAN-2.6.0-Android.apk` | Copy to your phone and install (allow installs from unknown sources) |
+| 🍎 macOS (Apple silicon) | `OpenHAN-2.6.0-mac-arm64.dmg` | M1–M4 Macs. First launch: **right-click → Open** (or `xattr -cr /Applications/OpenHAN.app`) |
+| 🍎 macOS (Intel) | `OpenHAN-2.6.0-mac-x64.dmg` | Intel Macs. Right-click → Open once, as above |
 
 > **Windows SmartScreen may warn on first launch** because the app is not code-signed. Click **More info → Run anyway**.
 
@@ -307,6 +331,6 @@ OpenHAN is an independent open-source project and is not affiliated with Hancom 
 
 Familiar Writing. More Possibilities.
 
-**Windows · macOS · Android · Version 2.5.0 · MIT License**
+**Windows · macOS · Android · Version 2.6.0 · MIT License**
 
 </div>

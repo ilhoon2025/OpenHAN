@@ -1,4 +1,4 @@
-# 📝 OpenHAN **v2.5.0** · **_정식 릴리즈_** · 🍎 macOS 추가
+# 📝 OpenHAN **v2.6.0** · **_정식 릴리즈_** · 🌐 AI 웹 검색 · 🗂️ 내 PC 파일
 
 ✨ **HWP/HWPX 편집부터 AI 비서·맞춤법·공문서체 변환, AI 누끼 따기까지 — PC와 휴대폰에서.**
 
@@ -14,15 +14,37 @@
 
 | 플랫폼 | 파일 | 안내 |
 | :--- | :--- | :--- |
-| 🪟 **Windows 설치** | [`OpenHAN-2.5.0-Setup.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-Setup.exe) | 설치 위치를 고르면 시작 메뉴·바탕화면 바로가기가 생깁니다 **(추천)** |
-| 🪟 **Windows 포터블** | [`OpenHAN-2.5.0-Portable.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-Portable.exe) | 설치 없이 파일 하나로 바로 실행 |
-| 🤖 **Android** | [`OpenHAN-2.5.0-Android.apk`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-Android.apk) | 휴대폰으로 옮겨 설치 (출처를 알 수 없는 앱 설치 허용 필요) |
-| 🍎 **macOS (Apple 실리콘)** | [`OpenHAN-2.5.0-mac-arm64.dmg`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-mac-arm64.dmg) | M1~M4 Mac |
-| 🍎 **macOS (Intel)** | [`OpenHAN-2.5.0-mac-x64.dmg`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.5.0/OpenHAN-2.5.0-mac-x64.dmg) | Intel Mac · `.zip`도 함께 제공 |
+| 🪟 **Windows 설치** | [`OpenHAN-2.6.0-Setup.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.6.0/OpenHAN-2.6.0-Setup.exe) | 설치 위치를 고르면 시작 메뉴·바탕화면 바로가기가 생깁니다 **(추천)** |
+| 🪟 **Windows 포터블** | [`OpenHAN-2.6.0-Portable.exe`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.6.0/OpenHAN-2.6.0-Portable.exe) | 설치 없이 파일 하나로 바로 실행 |
+| 🤖 **Android** | [`OpenHAN-2.6.0-Android.apk`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.6.0/OpenHAN-2.6.0-Android.apk) | 휴대폰으로 옮겨 설치 (출처를 알 수 없는 앱 설치 허용 필요) |
+| 🍎 **macOS (Apple 실리콘)** | [`OpenHAN-2.6.0-mac-arm64.dmg`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.6.0/OpenHAN-2.6.0-mac-arm64.dmg) | M1~M4 Mac |
+| 🍎 **macOS (Intel)** | [`OpenHAN-2.6.0-mac-x64.dmg`](https://github.com/ilhoon2025/OpenHAN/releases/download/v2.6.0/OpenHAN-2.6.0-mac-x64.dmg) | Intel Mac · `.zip`도 함께 제공 |
 
 > ⚠️ 코드 서명 인증서가 없는 무료 프로그램이라 처음 실행할 때 **Windows SmartScreen** 경고가 뜰 수 있습니다. **추가 정보 → 실행**을 누르세요.
 >
 > 🍎 macOS용은 Apple 공증을 받지 않아 처음 열 때 "확인되지 않은 개발자" 경고가 뜹니다. 앱을 **우클릭 → 열기**를 누르거나, 터미널에서 `xattr -cr /Applications/OpenHAN.app`을 실행하세요.
+
+### 🆕 v2.6.0에서 바뀐 점
+
+🌐 **AI 웹 검색** — AI가 필요하면 스스로 웹을 검색하고 페이지를 읽어 답합니다. 링크를 붙여 넣으면 그 페이지를 읽고, 답 아래에 출처가 붙습니다. 입력창의 **웹 검색**을 켜면 질문마다 먼저 찾아봅니다. (키 필요 없음)
+
+📎 **무엇이든 첨부** — 사진(AI가 직접 봄) · 코드 · PDF · 워드 · 엑셀 · 파워포인트 · 한글 · ZIP · 동영상(장면 몇 장)을 올리면 AI가 읽습니다. 끌어다 놓기·붙여넣기도 됩니다. 답의 코드·표·목록도 보기 좋게 보입니다.
+
+🖼️ **웹 사진 찾아 넣기 · 그림 만들기** — "○○ 사진 넣어 줘"라고 하면 후보 사진을 직접 보고 골라 문서에 넣고 출처·라이선스 캡션을 붙입니다. 알맞은 사진이 없거나 "그려 줘"라고 하면 그림을 만들어 넣습니다.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ilhoon2025/OpenHAN/main/docs/images/ai-photo.png" alt="AI가 웹 사진을 찾아 넣은 화면" width="680">
+</p>
+
+🧰 **앱의 모든 도구를 AI가** — 표 칸 합치기·행 추가·칸 색, 그림 크기·누끼 따기(창 없이 바로), 서식으로 새 문서, 링크 넣기 등 앱 기능 130여 개를 말로 시킬 수 있습니다.
+
+🗂️ **내 컴퓨터 파일 (선택, 기본값 꺼짐)** — 입력창의 🗂 버튼에서 **끔 / 읽기만 / 읽기·쓰기**를 고릅니다. 켜면 AI가 PC 파일을 찾고 읽고, 저장·복사·옮기기·이름 바꾸기·휴지통으로 버리기까지 합니다. 허용 폴더를 정할 수 있고, 바꾸기 전에 매번 확인 창이 뜨며(기본), 시스템 폴더·AppData·.ssh·실행 파일은 항상 막혀 있습니다.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ilhoon2025/OpenHAN/main/docs/images/ai-pc-access.png" alt="내 컴퓨터 파일 접근 설정" width="340">
+</p>
+
+💬 **새 입력창** — 글 칸과 📎 · 웹 검색 · 내 PC 버튼, 보내기를 하나의 둥근 카드에 담았고, 글이 길어지면 칸이 늘어납니다.
 
 ### 🆕 v2.5.0에서 바뀐 점
 
@@ -76,7 +98,7 @@
 ### 🛠️ 프로젝트 소개
 
 🏷️ **이름:** OpenHAN  
-💎 **버전:** 2.5.0  
+💎 **버전:** 2.6.0  
 🖥️ **플랫폼:** Windows x64 · Android · macOS  
 🇰🇷 **개발:** 100% Korean-Developed · Made in Korea  
 ⚙️ **기반 기술:** Electron · Capacitor · React · Tiptap / ProseMirror  
@@ -111,7 +133,7 @@
 
 ### 📖 사용 방법
 
-🚀 **실행:** `OpenHAN-2.5.0-Setup.exe`로 설치하거나 Portable을 바로 실행하세요.  
+🚀 **실행:** `OpenHAN-2.6.0-Setup.exe`로 설치하거나 Portable을 바로 실행하세요.  
 📂 **불러오기:** **Ctrl+O**로 문서를 선택하세요.  
 ✍️ **새 문서:** **Alt+N**을 누르거나 시작 화면에서 서식을 고르세요.  
 ✨ **AI 비서:** **Ctrl+K, A** — 맞춤법은 **F8**, 자동 수정은 **Ctrl+F8**  
